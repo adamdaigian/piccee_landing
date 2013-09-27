@@ -1,4 +1,4 @@
-<header class="navbar navbar-inverse navbar-fixed-top bs-docs-nav" role="banner">
+<header class="navbar navbar-inverse navbar-fixed-bottom bs-docs-nav" role="banner">
   <div class="container">
     <div class="navbar-header">
       <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
@@ -12,19 +12,16 @@
     <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
       <ul class="nav navbar-nav">
         <li{% if page.slug == "getting-started" %} class="active"{% endif %}>
-          <a href="{{ page.base_url }}getting-started">Getting started</a>
+          <a href="{{ page.base_url }}getting-started">About</a>
         </li>
         <li{% if page.slug == "css" %} class="active"{% endif %}>
-          <a href="{{ page.base_url }}css">CSS</a>
+          <a href="{{ page.base_url }}css">Terms</a>
         </li>
         <li{% if page.slug == "components" %} class="active"{% endif %}>
-          <a href="{{ page.base_url }}components">Components</a>
+          <a href="{{ page.base_url }}components">Privacy</a>
         </li>
         <li{% if page.slug == "js" %} class="active"{% endif %}>
-          <a href="{{ page.base_url }}javascript">JavaScript</a>
-        </li>
-        <li{% if page.slug == "customize" %} class="active"{% endif %}>
-          <a href="{{ page.base_url }}customize">Customize</a>
+          <a href="{{ page.base_url }}javascript">Contact Us</a>
         </li>
       </ul>
     </nav>
