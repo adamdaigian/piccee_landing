@@ -1117,12 +1117,12 @@ h1[id] {
 }
 
 #signup {
-  margin-top: 100px;
+  margin-top: 75%;
 /*  opacity: .6;*/
 }
 
 .tweet {
-  opacity: .9;
+  opacity: .8;
 }
 
 body {
@@ -1136,8 +1136,28 @@ body {
   opacity: 1;
 }*/
 
-@media (max-width: 768px) {
+.title {
+  margin-top: 60%;
+}
+
+#first-image {
+  height:100px;
+  width:100px;
+  float:left;
+  border: 2px solid #2d2d2d;
+  border-radius: 50%;
+}
+
+@media (max-width: 1024px) {
   .tweet {
     display:none;
+  }
+
+  .title {
+    margin-top: 60px;
+  }
+
+  #signup {
+    margin-top: 75px
   }
 }
