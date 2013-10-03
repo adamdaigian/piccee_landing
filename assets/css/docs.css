@@ -248,16 +248,16 @@ body {
 @media screen and (min-width: 768px) {
   .bs-masthead {
     text-align: left;
-    padding-top:    50px;
-    padding-bottom: 140px;
+/*    padding-top:    50px;
+    padding-bottom: 140px;*/
   }
   .bs-masthead h1 {
-    font-size: 70px;
+    font-size: 140px;
     font-weight:500;
   }
   .bs-masthead .lead {
     margin-right: 25%;
-    font-size: 30px;
+    font-size: 3em;
     font-weight:300;
     color: #cdbfe3;
   }
@@ -1117,12 +1117,23 @@ h1[id] {
 }
 
 #signup {
-  margin-top: 75%;
+  margin-top: 160px;
 /*  opacity: .6;*/
 }
 
+.sign-in {
+  width: 75%;
+}
+
+.btn-sign-in {
+  margin-left: 10px;
+}
+
 .tweet {
-  opacity: .8;
+  opacity: .9;
+  margin-top: 44px;
+/*  -webkit-scaleX: 90%;
+  -webkit-scaleY: 90%;*/
 }
 
 body {
@@ -1137,7 +1148,12 @@ body {
 }*/
 
 .title {
-  margin-top: 60%;
+  margin-top: 130px;
+}
+
+.logo {
+  font-family: 'Damion', cursive;
+  font-size: 6em;
 }
 
 #first-image {

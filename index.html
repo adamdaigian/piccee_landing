@@ -7,9 +7,9 @@ base_url: "./"
 <main class="bs-masthead" id="content" role="main">
   <div class="container">
     <div class="row">
-      <div class="col-md-5 col-md-offset-2">
+      <div class="col-md-5 col-md-offset-1">
         <div class="title">
-    <h1>PICCEE</h1>
+    <h1 class="logo">Piccee</h1>
     <p class="lead">The creative way to find love.</p>
         </div>
             <div class="tweet">
@@ -19,6 +19,7 @@ base_url: "./"
       </div> <!-- col md 6 -->
       <div class="col-md-4">
         <div class="well" id="signup">
+          <h4><em>New to Piccee?</em> Sign Up.</h4>
           <form role="form">
             <div class="form-group">
               <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter name">
@@ -29,12 +30,23 @@ base_url: "./"
             <div class="form-group">
               <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
             </div>
+            <button type="button" class="btn btn-warning btn-md btn-block">Sign up for Piccee</button>
           </form>
-          <div id="select">
-            <div id="first-image">
+        </div> <!-- signup -->
+
+        <div class="well">
+          <h4><em>Already a member?</em> Sign in.</h4>
+          <form role="form">
+            <div class="form-group">
+              <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
             </div>
-          </div> <!-- select -->
-        </div> <!-- form -->
-      </div> <!-- col md 6 -->
+            <div class="form-group">
+              <input type="email" class="form-control col-md-2 sign-in" id="exampleInputEmail1" placeholder="Password">
+              <button type="button" class="btn btn-info btn-md btn-sign-in">Sign in</button>
+            </div>
+          </form>
+        </div> <!-- signup -->
+
+      </div> <!-- col md 4 -->
     </div> <!-- row -->
 </main>
