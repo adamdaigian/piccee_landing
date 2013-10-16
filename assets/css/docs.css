@@ -81,8 +81,7 @@ body {
 
 .bs-docs-nav {
   text-shadow: 0 -1px 0 rgba(0,0,0,.15);
-  background-color: #563d7c;
-  border-color: #463265;
+  background-color: rgba(0,0,0, .6);
   box-shadow: 0 1px 0 rgba(255,255,255,.1);
 }
 .bs-docs-nav .navbar-collapse {
@@ -1120,7 +1119,7 @@ h1[id] {
 #screen1 {
   height:100%;
   width:100%;
-  background-image: url('/assets/img/315_314_JCW_Rooftop_01_119.jpg');
+  background-image: url('http://farm8.staticflickr.com/7329/9424442286_5c1763e229_h.jpg');
   background-repeat:no-repeat;
   background-size:cover;
 /*  -webkit-filter: blur(5px);*/
@@ -1248,5 +1247,17 @@ input[type="submit"]:hover {
   text-shadow:0px 1px 1px rgba(0,0,0,.65);
   -webkit-transition: all 0.40s ease-out;
   transition: all 0.40s ease-out;
+}
+
+.profile {
+  height: 32px;
+  width: 32px;
+  margin-top: -72px;
+  margin-left: 127px;
+  border-radius: 50%;
+}
+
+.click-through {
+  left: 120%;
 }
 
